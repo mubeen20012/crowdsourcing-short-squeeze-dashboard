@@ -116,7 +116,7 @@ Output:
 The app features a sleek, gradient-based dark theme with labeled input fields, intuitive buttons, and a result display card.
 Users can enter the stock details and instantly get prediction results with clear visuals.
 
-<img width="1366" height="885" alt="stock" src="https://github.com/user-attachments/assets/e36748cb-5a95-4e64-8dbd-9c863fb5d86e" />
+<img width="1366" height="885" alt="stock" src="https://github.com/user-attachments/assets/a18f1f3e-262a-400f-b97b-5dafcad3ca87" />
 
 Deployment on Render
 Create a free account on Render.com
