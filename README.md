@@ -1,20 +1,16 @@
-# 📈 Crowdsourcing Short Squeeze Dashboard
+📈 Stock Movement Prediction Web App
 
-A **data-driven machine learning dashboard** built using **Flask** that predicts short-squeeze opportunities in stock markets.  
-This project applies **Gradient Boosting Classification** on real stock data (e.g., GME) to forecast market trends and provide visual insights through an interactive web interface.
+🧠 Overview
+The Stock Movement Prediction App is a machine learning–powered web application built with Flask that predicts whether a stock’s price will go UP 📈 or DOWN 📉 based on key daily market indicators.
+It provides a modern, interactive interface where users can input real-world stock data and instantly get predictions powered by a Gradient Boosting Classifier trained on historical price patterns.
 
----
-
-## 🧠 Project Overview
-
-The **Crowdsourcing Short Squeeze Dashboard** aims to assist investors and analysts by predicting whether a stock is likely to experience a short squeeze based on engineered market features.
-
-The app:
-- 🧩 Uses machine learning (Gradient Boosting Classifier) to classify short-squeeze potential  
-- 📊 Displays predictions and trends through an interactive Flask dashboard  
-- 📈 Helps identify opportunities by combining historical and engineered stock features  
-
----
+🚀 Features
+✅ Predicts stock movement direction (Up or Down)
+✅ Built with Flask and Gradient Boosting Classifier
+✅ Clean, modern, and responsive web interface
+✅ Real-time form validation and prediction
+✅ Organized modular project structure
+✅ Error-handling for smooth user experience
 
 ## 🗂️ Folder Structure
 crowdsourcing-short-squeeze-dashboard/
@@ -41,23 +37,18 @@ crowdsourcing-short-squeeze-dashboard/
 ├── procfile # Render start command
 └── README.md
 
----
+🧩 Tech Stack
+| Component            | Technology                                  |
+| -------------------- | ------------------------------------------- |
+| **Frontend**         | HTML5, CSS3 (Custom UI Design)              |
+| **Backend**          | Python (Flask)                              |
+| **Machine Learning** | Gradient Boosting Classifier (scikit-learn) |
+| **Libraries Used**   | pandas, NumPy, joblib                       |
+| **IDE**              | Visual Studio Code                          |
 
-## ⚙️ Tech Stack
+  
 
-**Languages & Frameworks:**  
-🐍 Python | 🌐 Flask  
 
-**Libraries:**  
-📦 Pandas | NumPy | Plotly | Joblib | Scikit-learn  
-
-**Machine Learning Model:**  
-🚀 Gradient Boosting Classifier  
-
-**Deployment:**  
-☁️ Render (Cloud hosting for Flask apps)
-
----
 
 ## 📊 Model Performance
 
@@ -97,6 +88,44 @@ python app.py
 Open your browser
 
 Go to 👉 http://127.0.0.1:5000/
+
+📊 Model Details
+Algorithm Used: Gradient Boosting Classifier
+Training Dataset: stock_features.csv
+Target Variable: target_updown
+Performance Metric: Accuracy
+
+Input Features:
+Open Price
+High Price
+Low Price
+Close Price
+Adjusted Close Price
+Average Price
+Moving Averages (MA10, MA50)
+VWAP (Volume Weighted Average Price)
+Daily Return Percentage
+Price Range
+Volume
+
+Output:
+1 → Stock will go UP 📈
+0 → Stock will go DOWN 📉
+
+🖼️ User Interface Preview
+The app features a sleek, gradient-based dark theme with labeled input fields, intuitive buttons, and a result display card.
+Users can enter the stock details and instantly get prediction results with clear visuals.
+
+<img width="1366" height="885" alt="stock" src="https://github.com/user-attachments/assets/e36748cb-5a95-4e64-8dbd-9c863fb5d86e" />
+
+Deployment on Render
+Create a free account on Render.com
+, then:
+Connect your GitHub repo
+Add these settings:
+Build Command: pip install -r requirements.txt
+Start Command: python stock_prediction_app/app.py
+Auto-deploy your model app 🚀
 
 👩‍💻 Author
 Musfira Mubeen
