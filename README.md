@@ -72,10 +72,7 @@ Streamlit dashboard
 📄 [View Full Project Report](PROJECT_REPORT.md)
 
 👩‍💻 Author
-
-Musfira Mubeen
 🎓 Data Science Enthusiast | Python Developer | Machine Learning Learner
 🔗 LinkedIn: https://www.linkedin.com/in/musfira-mubeen/
  • 💻 GitHub: https://github.com/mubeen20012
-📧 musfira.mubeen@example.com
 
