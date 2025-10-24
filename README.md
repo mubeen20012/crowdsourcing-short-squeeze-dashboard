@@ -68,6 +68,9 @@ Real-time stock data API
 Database integration for history tracking
 Cloud deployment
 Streamlit dashboard
+
+📄 [View Full Project Report](PROJECT_REPORT.md)
+
 👩‍💻 Author
 
 Musfira Mubeen
